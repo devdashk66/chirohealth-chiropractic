@@ -2,6 +2,7 @@ import AboutSection from "@/components/home/AboutSection";
 import BenefitsSection from "@/components/home/BenefitsSection";
 import BookingForm from "@/components/home/BookingForm";
 import ExpertsTherapist from "@/components/home/ExpertsTherapist";
+import Gallery from "@/components/home/Gallery";
 import Hero from "@/components/home/Hero";
 import Testimonial from "@/components/home/Testimonial";
 
@@ -22,6 +23,7 @@ const HomePage = () => {
       <ExpertsTherapist />
       <AboutSection />
       <Testimonial />
+      <Gallery />
     </section>
   );
 };

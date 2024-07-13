@@ -9,7 +9,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 
 const Testimonial = () => {
   return (
-    <section className="py-12 bg-background">
+    <section className="py-24 bg-background">
       <main className="container mx-auto px-5">
         <div className="text-center">
           <h2 className="text-primary text-lg font-bold mb-4 uppercase">
