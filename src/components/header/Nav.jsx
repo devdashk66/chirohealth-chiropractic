@@ -76,28 +76,9 @@ export default Nav;
 const navItems = [
   "home",
   "about",
+  "team",
   "services",
   "departments",
   "gallery",
-  "blog",
   "contact",
 ];
-
-{
-  /* <div className="md:flex justify-evenly">
-            {navItems.map((item) => (
-              <Link
-                className={`uppercase text-white py-5 px-10 hover:bg-secondary duration-200 ${
-                  path.includes(item) && "bg-primary"
-                }`}
-                key={item}
-                href={`/${item}`}
-              >
-                {item}
-              </Link>
-            ))}
-            <button className="bg-primary text-white px-5 py-3 uppercase rounded hidden md:block">
-              make an appointment
-            </button>
-          </div> */
-}
