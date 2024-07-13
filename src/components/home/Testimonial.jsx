@@ -47,7 +47,7 @@ const Testimonial = () => {
             className="mySwiper"
           >
             {testimonial.map((persoin) => (
-              <SwiperSlide key={persoin.id}>
+              <SwiperSlide className="pb-16" key={persoin.id}>
                 <div className="border border-primary p-6 relative rounded-br group">
                   <p className="pb-5 text-gray-300">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab

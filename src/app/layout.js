@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/Footer";
 import Nav from "@/components/header/Nav";
 import TopHeader from "@/components/header/TopHeader";
 import { Inter, Ubuntu } from "next/font/google";
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <TopHeader />
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );
