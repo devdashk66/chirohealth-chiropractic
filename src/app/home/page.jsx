@@ -1,5 +1,9 @@
+import AboutSection from "@/components/home/AboutSection";
+import BenefitsSection from "@/components/home/BenefitsSection";
 import BookingForm from "@/components/home/BookingForm";
+import ExpertsTherapist from "@/components/home/ExpertsTherapist";
 import Hero from "@/components/home/Hero";
+import Testimonial from "@/components/home/Testimonial";
 
 export const metadata = {
   title: "ChiroHealth - Your Path to Optimal Health",
@@ -14,6 +18,10 @@ const HomePage = () => {
       <div className="-mt-36  relative z-10">
         <BookingForm />
       </div>
+      <BenefitsSection />
+      <ExpertsTherapist />
+      <AboutSection />
+      <Testimonial />
     </section>
   );
 };

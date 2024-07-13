@@ -5,3 +5,8 @@
 .swiper-pagination-bullet-active {
   background-color: #01d28e !important; /* Active color */
 }
+
+p {
+  line-height: 30px;
+  letter-spacing: 1px;
+}
