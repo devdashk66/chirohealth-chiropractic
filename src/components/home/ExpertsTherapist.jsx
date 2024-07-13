@@ -27,7 +27,7 @@ const ExpertsTherapist = () => {
                 width={720}
                 height={600}
                 alt="avater"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover group-hover:scale-110 duration-300"
               />
 
               <div className="absolute -bottom-12 left-2/4 -translate-x-2/4 -translate-y-2/4 group-hover:bottom-5 duration-300">

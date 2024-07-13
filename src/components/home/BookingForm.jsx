@@ -1,7 +1,7 @@
 const BookingForm = () => {
   return (
     <div className="flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl w-full bg-primary shadow-md overflow-hidden">
+      <div className="max-w-4xl w-full bg-primary shadow-md overflow-hidden lg:border-r border-primary">
         <div className="flex flex-col lg:flex-row">
           <div className="p-8 lg:w-2/3">
             <h2 className="text-white text-xl  mb-6">Booking an Appointment</h2>

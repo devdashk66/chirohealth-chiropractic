@@ -1,5 +1,11 @@
+import PageHeading from "@/components/common/PageHeading";
+
 const AboutPage = () => {
-  return <div>this is about page</div>;
+  return (
+    <section>
+      <PageHeading title="About Us" />
+    </section>
+  );
 };
 
 export default AboutPage;

@@ -5,7 +5,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 const BlogSection = () => {
   return (
-    <section className="py-12 px-5">
+    <section className="pt-24 pb-12 px-5">
       <main className="container mx-auto">
         <div className="text-center">
           <h2 className="text-primary text-lg font-bold mb-4 uppercase">
@@ -21,7 +21,7 @@ const BlogSection = () => {
               clickable: true,
             }}
             autoplay={{
-              delay: 222500,
+              delay: 2500,
               disableOnInteraction: false,
             }}
             modules={[Pagination, Autoplay]}

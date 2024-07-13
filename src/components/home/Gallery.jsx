@@ -18,7 +18,7 @@ const Gallery = () => {
                 src={`/images/gallery/gallery-${item.id}.jpg`}
               />
               <div className="bg-secondary bg-opacity-80 absolute top-0 left-0 w-full h-full flex items-center flex-col justify-center gap-2 group-hover:opacity-100 opacity-0 duration-300">
-                <span className="w-20 h-20 flex items-center justify-center bg-primary rounded-full group-hover:scale-95 scale-0 duration-1000">
+                <span className="w-20 h-20 flex items-center justify-center bg-primary rounded-full group-hover:scale-95 scale-0 duration-700">
                   <MdOutlineZoomOutMap className="text-white text-3xl" />
                 </span>
                 <h4 className="text-xl text-white font-bold group-hover:opacity-100 opacity-0 duration-700">

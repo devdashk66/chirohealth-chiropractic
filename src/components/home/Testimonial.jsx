@@ -48,7 +48,7 @@ const Testimonial = () => {
           >
             {testimonial.map((persoin) => (
               <SwiperSlide className="pb-16" key={persoin.id}>
-                <div className="border border-primary p-6 relative rounded-br group">
+                <div className="border border-primary p-6 relative group">
                   <p className="pb-5 text-gray-300">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
                     magnam aut earum. Quis, assumenda delectus adipisci magni
@@ -67,7 +67,7 @@ const Testimonial = () => {
                       <p className="text-gray-200">{persoin.position}</p>
                     </div>
                   </div>
-                  <span className="absolute bottom-0 right-0 z-30 p-3 bg-primary rounded-tl rounded-br group-hover:bg-secondary duration-300">
+                  <span className="absolute bottom-0 right-0 z-30 p-3 bg-primary rounded-tl group-hover:bg-secondary duration-300">
                     <FaComment className="text-xl text-white group-hover:animate-bounce duration-300" />
                   </span>
                 </div>

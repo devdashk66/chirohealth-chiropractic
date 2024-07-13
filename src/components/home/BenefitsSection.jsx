@@ -10,7 +10,7 @@ const BenefitsSection = () => {
         <h2 className="text-primary text-lg font-bold mb-4 uppercase">
           We Offer Services
         </h2>
-        <h3 className="text-4xl font-bold mb-12">Our Benefits</h3>
+        <h3 className="text-4xl font-bold">Our Benefits</h3>
       </div>
       <div className="flex items-center justify-center gap-10 lg:gap-3 flex-wrap mx-5">
         <div className="flex justify-center gap-5 group lg:max-w-[400px] py-10 hover:border-r hover:border-primary duration-300">
