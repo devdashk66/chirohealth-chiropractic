@@ -55,6 +55,17 @@ const WhyChooseUs = () => {
   return (
     <sections>
       <main className="container mx-auto px-5 my-12">
+        <div className="text-center">
+          <h2 className="text-primary text-lg font-bold mb-4 uppercase">
+            SERVICES
+          </h2>
+          <h3 className="text-4xl font-bold mb-4">Why Choose Us?</h3>
+          <p className="max-w-[800px] mb-12 mx-auto text-gray-400">
+            Separated they live in. A small river named Duden flows by their
+            place and supplies it with the necessary regelialia. It is a
+            paradisematic country
+          </p>
+        </div>
         <div className="flex flex-col justify-center  lg:flex-row">
           {/* Sidebar */}
           <div className="flex flex-col  p-4 space-y-4 lg:w-1/4">

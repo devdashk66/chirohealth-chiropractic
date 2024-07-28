@@ -37,9 +37,7 @@ const Footer = () => {
           <ul className="space-y-2">
             <li className="flex items-center space-x-2">
               <MdLocationOn className="text-2xl" />
-              <span>
-                203 Fake St. Mountain View, San Francisco, California, USA
-              </span>
+              <span>2569 Maple Avenue Stockton, CA 95204</span>
             </li>
             <li className="flex items-center space-x-2">
               <MdPhone className="text-2xl" />

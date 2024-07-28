@@ -14,7 +14,7 @@ const TopHeader = () => {
           <span className="w-6 h-6 sm:w-8 sm:h-8 md:w-12 md:h-12 bg-primary bg-opacity-10 flex items-center justify-center rounded-full">
             <FaPhoneAlt className=" text-primary" />
           </span>
-          <span> +01 123 456 7890</span>
+          <span> +2 392 3929 210</span>
         </div>
       </div>
     </div>
